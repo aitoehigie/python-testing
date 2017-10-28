@@ -9,7 +9,7 @@ class PortfolioTest(unittest.TestCase):
 
     def test_empty(self):
         p = Portfolio()
-        self.assertEqual(p.cost(), 0.1)
+        self.assertEqual(p.cost(), 0.0)
 
     def test_buy_two_stocks(self):
         p = Portfolio()
